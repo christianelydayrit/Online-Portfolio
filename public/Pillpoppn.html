@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Projects</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <style>
+        /* Custom styles for larger image and description area */
+        .item img {
+            width: 60%; /* Ensures the image fits within a row */
+            height: auto; /* Maintains the aspect ratio */
+            margin: 10px; /* Adds margin between images */
+        }
+
+        .item {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .description {
+            margin-top: 20px;
+            font-size: 1.1em;
+            line-height: 1.6em;
+        }
+
+        footer {
+            margin-top: 30px; /* Adds space before the button */
+            text-align: center; /* Centers the button */
+        }
+
+        footer .button {
+            padding: 10px 20px;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body class="">
+
+    <!-- Header -->
+    <div id="header">
+        <div class="top">
+            <!-- Logo -->
+            <div id="logo">
+                <span class="image avatar48"><img src="../images/coverPhoto.jpg" alt=""></span>
+            </div>
+            <!-- Nav -->
+            <nav id="nav">
+                <ul>
+                    <li><a href="#projects" id="projects-link" class="scrolly active" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="icon solid fa-th">Projects</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main">
+        <!-- Projects Section -->
+        <section id="projects" class="two">
+            <div class="container">
+                <header>
+                    <h2>IoT-based Automatic Pill Dispenser</h2>
+                </header>
+                <div class="row">
+                    <div class="col-12">
+                        <article class="item">
+                            <!-- Image Gallery for Pill Dispenser -->
+                            <div class="image-gallery">
+                                <a href="#" class="image fit"><img src="../images/system/Homepage.jpg" alt="Pill Dispenser Image 1"></a>
+                                <a href="#" class="image fit"><img src="../images/system/AlarmPage.jpg" alt="Pill Dispenser Image 2"></a>
+                                <a href="#" class="image fit"><img src="../images/system/SettingAlarm.jpg" alt="Pill Dispenser Image 3"></a>
+                                <a href="#" class="image fit"><img src="../images/system/SettingName.jpg" alt="Pill Dispenser Image 1"></a>
+                                <a href="#" class="image fit"><img src="../images/system/Timeline.jpg" alt="Pill Dispenser Image 2"></a>
+                                <a href="#" class="image fit"><img src="../images/system/system.jpg" alt="Pill Dispenser Image 3"></a>
+                                <!-- Add more images here as needed -->
+                            </div>
+                            
+                            <!-- Description for Pill Dispenser -->
+                            <div class="description">
+                                <p>This system integrates an IoT-based automatic pill dispenser, featuring a user-friendly and aesthetically pleasing mobile application. It supports an unlimited number of alarms, allowing the dispenser to trigger at the right time. Additionally, the system provides notifications when pills are dispensed and tracks the quantity of pills in each container, notifying users when the pill count reaches a "low" or "full" threshold.</p>
+                                
+                                <p>The mobile app enables users to easily rename each container for easier identification. Arduino controls the dispensing mechanism, ensuring accurate timing and automatic pill counting. The system updates the pill count in real-time through Firebase Realtime Database, ensuring that every action is synchronized and no pill is missed.</p>
+                                
+                                <!-- List of Key Features -->
+                                <p>Key features:</p>
+                                <ul>
+                                    <li><strong>Alarm Management:</strong> Supports unlimited alarms, and the pill dispenser triggers automatically at the set times.</li>
+                                    <li><strong>Real-time Synchronization:</strong> Firebase is used to keep the pill count in sync and notify users about low/full pill levels.</li>
+                                    <li><strong>Mobile App Integration:</strong> The mobile app allows easy container renaming and pill tracking.</li>
+                                    <li><strong>Arduino Control:</strong> Arduino manages the dispensing mechanism and ensures proper pill counting.</li>
+                                </ul>
+                                <p>This project provides an efficient, automated solution for pill dispensing, improving medication adherence and user convenience.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- Go Back Button -->
+                <footer>
+                    <a href="../index.html" class="button scrolly">Go back</a>
+                </footer>
+            </div>
+        </section>
+    </div>
+
+    <!-- Scripts -->
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script src="../../assets/js/jquery.scrolly.min.js"></script>
+    <script src="../../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../../assets/js/browser.min.js"></script>
+    <script src="../../assets/js/breakpoints.min.js"></script>
+    <script src="../../assets/js/util.js"></script>
+    <script src="../../assets/js/main.js"></script><div id="headerToggle"><a href="#header" class="toggle"></a></div>
+
+
+
+</body></html>

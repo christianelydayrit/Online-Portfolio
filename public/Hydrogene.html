@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Projects</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <style>
+        /* Custom styles for larger video and description area */
+        .item video {
+            width: 100%; /* Ensures the video fits the container */
+            height: auto; /* Maintains the aspect ratio */
+        }
+
+        .item {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .description {
+            margin-top: 20px;
+            font-size: 1.1em;
+            line-height: 1.6em;
+        }
+
+        footer {
+            margin-top: 30px; /* Adds space before the button */
+            text-align: center; /* Centers the button */
+        }
+
+        footer .button {
+            padding: 10px 20px;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body class="">
+
+    <!-- Header -->
+    <div id="header">
+        <div class="top">
+            <!-- Logo -->
+            <div id="logo">
+                <span class="image avatar48"><img src="../images/coverPhoto.jpg" alt=""></span>
+            </div>
+            <!-- Nav -->
+            <nav id="nav">
+                <ul>
+                    <li><a href="#projects" id="projects-link" class="scrolly active" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="icon solid fa-th">Projects</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main">
+        <!-- Projects Section -->
+        <section id="projects" class="two">
+            <div class="container">
+                <header>
+                    <h2>HydroGene</h2>
+                </header>
+                <div class="row">
+                    <div class="col-12">
+                        <article class="item">
+                            <video class="fit" controls="">
+                                <source src="../images/hydrogene/Hydrogene.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="description">
+                                <p>This project is a power generator that harnesses energy from rain, utilizing Arduino and a GSM module for monitoring and notifications. It was our capstone project, earning us 3rd place in the Research Exhibit 2023 at Our Lady of Fatima University (OLFU).</p>
+                                <p><strong>Features:</strong></p>
+                                <ul>
+                                    <li><strong>Rain Energy Harnessing:</strong> The system captures and converts rain energy into usable power. The generated power is stored in a 3-lithium battery pack, each consisting of six 18650 batteries, providing a total capacity of 13,200mAh.</li>
+                                    <li><strong>Real-Time Monitoring with Arduino:</strong> Tracks whether the turbine is spinning and actively generating power. Monitors the charge percentage of each battery pack.</li>
+                                    <li><strong>GSM Module for Notifications:</strong> Automatically notifies users about system updates and battery statuses. Sends alerts when: A battery pack is fully charged, The system detects changes in turbine activity, and Allows users to check the percentage of each battery pack remotely.</li>
+                                </ul>
+                                <p><strong>Highlights:</strong></p>
+                                <ul>
+                                    <li><strong>Award-Winning Innovation:</strong> Achieved 3rd place at the Research Exhibit 2023 for its unique and practical design.</li>
+                                    <li><strong>Sustainable Energy Solution:</strong> Provides a green energy source by leveraging rain as a renewable power generator.</li>
+                                    <li><strong>User-Friendly Alerts:</strong> Ensures users stay informed about system performance and battery health.</li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <footer>
+                    <a href="../index.html" class="button scrolly">Go back</a>
+                </footer>
+            </div>
+        </section>
+    </div>
+
+    <!-- Scripts -->
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script src="../../assets/js/jquery.scrolly.min.js"></script>
+    <script src="../../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../../assets/js/browser.min.js"></script>
+    <script src="../../assets/js/breakpoints.min.js"></script>
+    <script src="../../assets/js/util.js"></script>
+    <script src="../../assets/js/main.js"></script><div id="headerToggle"><a href="#header" class="toggle"></a></div>
+
+
+
+</body></html>

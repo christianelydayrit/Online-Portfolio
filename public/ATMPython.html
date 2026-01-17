@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Projects</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <style>
+        /* Custom styles for larger image and description area */
+        .item img {
+            width: 100%; /* Ensures the image fits the container */
+            height: auto; /* Maintains the aspect ratio */
+        }
+
+        .item {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .description {
+            margin-top: 20px;
+            font-size: 1.1em;
+            line-height: 1.6em;
+        }
+
+        footer {
+            margin-top: 30px; /* Adds space before the button */
+            text-align: center; /* Centers the button */
+        }
+
+        footer .button {
+            padding: 10px 20px;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body class="">
+
+    <!-- Header -->
+    <div id="header">
+        <div class="top">
+            <!-- Logo -->
+            <div id="logo">
+                <span class="image avatar48"><img src="../images/coverPhoto.jpg" alt=""></span>
+            </div>
+            <!-- Nav -->
+            <nav id="nav">
+                <ul>
+                    <li><a href="#projects" id="projects-link" class="scrolly active" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="icon solid fa-th">Projects</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main">
+        <!-- Projects Section -->
+        <section id="projects" class="two">
+            <div class="container">
+                <header>
+                    <h2>Python ATM System</h2>
+                </header>
+                <div class="row">
+                    <div class="col-12">
+                        <article class="item">
+                            <a href="#" class="image fit"><img src="../images/ATMPython/ATMPython.png" alt="Python ATM System"></a>
+                            <div class="description">
+                                <p>This is a simple ATM System implemented in Python that uses .txt files to store and manage user accounts, passwords, and balances. The system provides essential ATM functionalities, ensuring secure and straightforward banking operations with validation and user-friendly prompts. I created this project during my 3rd year to practice and enhance my knowledge of Python.</p>
+                                <p><strong>Features:</strong></p>
+                                <ul>
+                                    <li><strong>Create Account:</strong> Users can create an account with a name, 4-digit PIN, and initial deposit. Checks if the account already exists before proceeding. Saves account details securely in a .txt file.</li>
+                                    <li><strong>Withdraw Funds:</strong> Allows users to withdraw funds if their balance is sufficient. Displays an error message if the withdrawal amount exceeds the balance. Generates a receipt with details of the transaction (optional).</li>
+                                    <li><strong>Deposit Funds:</strong> Enables users to deposit money into their account. Updates the balance and provides an option to generate a receipt.</li>
+                                    <li><strong>Transfer Funds:</strong> Allows transferring money to another user account. Validates if the recipient account exists before processing the transfer. Ensures sufficient balance in the sender's account. Provides a receipt for both sender and recipient upon request.</li>
+                                    <li><strong>Check Balance:</strong> Displays the current account balance. Validates the user's PIN before showing account details.</li>
+                                    <li><strong>Change PIN:</strong> Allows users to securely update their PIN. Ensures the new PIN is confirmed before saving changes.</li>
+                                    <li><strong>Transaction Validation:</strong> Input errors such as invalid characters, incorrect PIN, or insufficient funds trigger appropriate error messages. Prompts users to retry or cancel during invalid inputs.</li>
+                                    <li><strong>Post-Transaction Options:</strong> After every transaction, users are asked if they want to perform another transaction or exit.</li>
+                                    <li><strong>Receipts:</strong> Each money transaction (Withdraw, Deposit, Transfer) provides an option to generate a detailed receipt. Receipts include Date &amp; Time of Transaction, Account Name, Transaction Type, Amount Involved, Updated Account Balance.</li>
+                                    <li><strong>Error Handling:</strong> Invalid inputs (e.g., letters in numeric fields, nonexistent accounts) result in clear error messages. Users can retry or cancel the operation when an error occurs.</li>
+                                </ul>
+                                <p>Feel free to visit my LinkedIn to view the source code.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <footer>
+                    <a href="../index.html" class="button scrolly">Go back</a>
+                </footer>
+            </div>
+        </section>
+    </div>
+
+    <!-- Scripts -->
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script src="../../assets/js/jquery.scrolly.min.js"></script>
+    <script src="../../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../../assets/js/browser.min.js"></script>
+    <script src="../../assets/js/breakpoints.min.js"></script>
+    <script src="../../assets/js/util.js"></script>
+    <script src="../../assets/js/main.js"></script><div id="headerToggle"><a href="#header" class="toggle"></a></div>
+
+
+
+</body></html>
